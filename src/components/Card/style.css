@@ -1,0 +1,20 @@
+.card {
+    width: 200px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,02)
+}
+
+.number {
+    font-size: large
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
