@@ -1,13 +1,21 @@
-/* .paper { */
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* column-gap: 20px; */
-/* } */
-
 .rounded {
     border-radius: 8px;
 }
 
 .shadow {
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.paper {
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,02);
+}
+
+.statitics {
+    width: 200px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
