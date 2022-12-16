@@ -10,14 +10,16 @@ export type Props = {
   icon: string
   // id?: string
   className?: string
+  graphCircle?: string
 }
 
-export const Card = ({ title, subtitle, icon, className }: Props) => {
-  // passa  il titolo, la linea orizzontale
+export const Card = ({ title, subtitle, icon, className, graphCircle }: Props) => {
   return (
     <Paper className={className}>
-      <Title title={title} subtitle={subtitle} />
-      <Icon icon={icon} />
+      <Title title={title} subtitle={subtitle} className="cards-titles" />
+      <div className="line" />
+      <Icon icon={icon} className="image" />
+      {graphCircle && <Icon icon={graphCircle} className="image" />}
     </Paper>
   )
 }

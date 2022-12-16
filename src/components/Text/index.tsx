@@ -4,17 +4,12 @@ import './style.css'
 
 type Props = {
   children: string
-  size: string
   bold?: boolean
   type?: 'h1' | 'h2' | 'h3' | 'h4' | 'p' | 'span'
+  className?: string
 }
 
-export const Text = ({ children, size = '18px', bold, type = 'span' }: Props) => {
+export const Text = ({ children, bold, type = 'span', className }: Props) => {
   const Wrapper = type
-  return <Wrapper className={cn({ bold })}>{children}</Wrapper>
-  // return element === 'subtitle' ? (
-  //   <p className={cn('subtitle', { bold })}>{children}</p>
-  // ) : (
-  //   <h3 className={cn('title', { bold })}>{children}</h3>
-  // )
+  return <Wrapper className={cn(className, { bold })}>{children}</Wrapper>
 }

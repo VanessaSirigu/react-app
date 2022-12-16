@@ -3,19 +3,10 @@
 }
 
 .shadow {
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 4px rgb(238, 238, 238);
 }
 
 .paper {
     margin: 20px;
     background-color: #fff;
-    box-shadow: 0 0 2px 0 rgba(0,0,0,02);
-}
-
-.statitics {
-    width: 200px;
-    text-align: left;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }

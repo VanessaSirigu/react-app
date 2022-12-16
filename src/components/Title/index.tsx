@@ -5,16 +5,17 @@ import './style.css'
 type Props = {
   title: string
   subtitle?: string
+  className?: string
 }
 
-export const Title = ({ title, subtitle }: Props) => {
+export const Title = ({ title, subtitle, className }: Props) => {
   return (
     <div>
-      <Text type="h2" size="14px" bold>
+      <Text type="h2" className={`${className} title`} bold>
         {title}
       </Text>
       {subtitle && (
-        <Text type="p" size="12px">
+        <Text type="p" className={`${className} subtitle`}>
           {subtitle}
         </Text>
       )}

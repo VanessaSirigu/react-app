@@ -12,11 +12,11 @@ export type Props = {
   className?: string
 }
 
-export const Statistics = ({ title, subtitle, icon, className }: Props) => {
+export const Statistic = ({ title, subtitle, icon, className }: Props) => {
   return (
     <Paper className={className}>
-      <Icon icon={icon} alt=" " />
-      <Title title={title} subtitle={subtitle} />
+      <Icon icon={icon} alt=" " className="icon" />
+      <Title title={title} subtitle={subtitle} className="stat-titles" />
     </Paper>
   )
 }

@@ -1,0 +1,27 @@
+.image{
+    width: 300px;
+    height: auto;
+}
+
+.line {
+    background-color: rgb(198, 198, 198, 0.3);
+    height: 1px;
+    width: 100%;
+}
+
+.cards-titles.title{ 
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.cards-titles.subtitle {
+    font-size: 12px;
+    text-align: right;
+}
+
+.cards-titles{
+    display: inline;
+    font-family: Verdana, Tahoma, sans-serif;
+    width: 100%;
+
+}

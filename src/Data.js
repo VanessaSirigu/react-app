@@ -2,8 +2,10 @@ export const cardsArray = [
   {
     // id: '1',
     title: 'Card 1',
-    // subtitle: 'Total patient',
-    icon: 'https://imageio.forbes.com/blogs-images/naomirobbins/files/2011/11/press-005-021.jpg?format=jpg&width=894'
+    subtitle: 'Show by Month',
+    icon: 'https://imageio.forbes.com/blogs-images/naomirobbins/files/2011/11/press-005-021.jpg?format=jpg&width=894',
+    graphCircle:
+      'https://www.tibco.com/sites/tibco/files/media_entity/2022-01/PieChart-01.svg'
   },
   {
     // id: '2',
@@ -40,13 +42,13 @@ export const statiticsArray = [
   },
   {
     id: '3',
-    title: 'C',
+    title: '$2,536',
     subtitle: 'Avg treat costs',
     icon: 'https://thumbs.dreamstime.com/b/icona-del-letto-di-ospedale-85646100.jpg'
   },
   {
     id: '4',
-    title: 'D',
+    title: '38',
     subtitle: 'Avaible cars',
     icon: 'https://thumbs.dreamstime.com/b/icona-del-letto-di-ospedale-85646100.jpg'
   }

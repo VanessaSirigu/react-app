@@ -18,6 +18,7 @@ export const CardList = ({ data, className }: Props) => {
             subtitle={e.subtitle}
             icon={e.icon}
             className={className}
+            graphCircle={e.graphCircle}
             // id="1"
           />
         )

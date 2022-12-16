@@ -1,5 +1,5 @@
 import React from 'react'
-import { Statistics, Props as StatiticsProps } from '../Statistics'
+import { Statistic, Props as StatiticsProps } from '../Statistic'
 import './style.css'
 
 type Props = {
@@ -12,7 +12,7 @@ export const StatiticsList = ({ data, className }: Props) => {
     <div className="row">
       {data.map((e) => {
         return (
-          <Statistics
+          <Statistic
             className={className}
             icon={e.icon}
             title={e.title}

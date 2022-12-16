@@ -3,12 +3,8 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 16px;
+    background-color: rgb(243, 242, 242);
 }
-
-/* .row {
-    display: flex;
-    justify-content: space-between;
-} */
 
 .container {
     width: 90%;

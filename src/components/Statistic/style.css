@@ -1,0 +1,24 @@
+.statitics {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number {
+    font-size: large
+}
+
+.stat-titles{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.stat-titles.subtitle {
+    color: #999999;
+    font-size: 10px;
+}
+
+.stat-titles.title {
+    color: 238, 238, 238;
+    font-size: 14px;
+}
