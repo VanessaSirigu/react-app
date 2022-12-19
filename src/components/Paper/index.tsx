@@ -3,12 +3,12 @@ import React, { ReactNode } from 'react'
 import './style.css'
 
 type Props = {
+  children: ReactNode
   shadow?: boolean
   rounded?: boolean
-  children: ReactNode
   className?: string
 }
 
-export const Paper = ({ children, rounded = true, shadow = true, className }: Props) => {
+export const Paper = ({ children, className, shadow = true, rounded = true }: Props) => {
   return <div className={cn('paper', className, { shadow, rounded })}>{children}</div>
 }

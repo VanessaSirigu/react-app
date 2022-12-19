@@ -15,7 +15,7 @@ export const Graph = ({ title, subtitle = '', icon /* children*/ }: Props) => {
   return (
     <Paper>
       <Title title={title} subtitle={subtitle} />
-      <Icon icon={icon} />
+      {/* <Icon icon={icon} /> */}
       {/* <div>{children}</div> */}
     </Paper>
   )

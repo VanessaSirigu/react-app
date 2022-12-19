@@ -1,5 +1,5 @@
 import cn from 'classnames'
-import { Statistic, Props as Statitics } from '../Statistic'
+import { Statistic, Stat as Statitics } from '../Statistic'
 import './style.css'
 
 type Props = {
@@ -8,7 +8,7 @@ type Props = {
 
 export const StatiticsList = ({ data }: Props) => {
   return (
-    <div className={cn('row')}>
+    <div className={cn('statitics-row')}>
       {data.map((e) => {
         return <Statistic icon={e.icon} title={e.title} subtitle={e.subtitle} />
       })}

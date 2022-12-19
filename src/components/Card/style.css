@@ -1,13 +1,4 @@
-/* .card .subtitle {
-    font-size: 12px;
-    margin-right: 10px;
-    color: #999999;
-    text-align: end;
-} */
-
 .card .titles {
     display: flex;
-    font-family: Verdana, Tahoma, sans-serif;
-    width: 100%;
     margin-left: 10px;
 }

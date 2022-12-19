@@ -1,9 +1,9 @@
 import React from 'react'
-import { Card, Props as CardProps } from '../Card'
+import { Card, CardProps } from '../Card'
 import './style.css'
 
 type Props = {
-  data: CardProps /* & { id: string })*/[]
+  data: CardProps[]
   className?: string
 }
 

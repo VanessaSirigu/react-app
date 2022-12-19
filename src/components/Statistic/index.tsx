@@ -1,17 +1,22 @@
+import { IconProp } from '@fortawesome/fontawesome-svg-core'
+import { IconName } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import cn from 'classnames'
 import { IconPoints } from '../IconPoints'
 import { Paper } from '../Paper'
 import { StatisticContenent } from '../StatisticsContenent'
-
 import './style.css'
 
-export type Props = {
-  icon: string
+export type Stat = {
+  id?: string
+  icon: IconName
   title: string
   subtitle: string
   className?: string
   size?: 'small' | 'medium' | 'large'
 }
+
+type Props = Stat
 
 export const Statistic = ({ title, subtitle, icon, className }: Props) => {
   return (

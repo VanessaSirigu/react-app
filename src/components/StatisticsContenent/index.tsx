@@ -1,9 +1,11 @@
+import { IconName } from '@fortawesome/fontawesome-svg-core'
 import { Icon } from '../Icon'
 import { Title } from '../Title'
 import './style.css'
 
 export type Props = {
-  icon: string
+  // icon: string
+  icon: IconName
   title: string
   subtitle: string
 }

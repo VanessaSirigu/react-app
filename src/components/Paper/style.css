@@ -1,12 +1,12 @@
-.rounded {
-    border-radius: 8px;
+.paper {
+    margin: 20px;
+    background-color: #fff;
 }
 
 .shadow {
     box-shadow: 0 0 4px rgb(238, 238, 238);
 }
 
-.paper {
-    margin: 20px;
-    background-color: #fff;
+.rounded {
+    border-radius: 8px;
 }
