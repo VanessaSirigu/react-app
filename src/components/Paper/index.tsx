@@ -10,6 +10,5 @@ type Props = {
 }
 
 export const Paper = ({ children, rounded = true, shadow = true, className }: Props) => {
-  console.log(className)
   return <div className={cn('paper', className, { shadow, rounded })}>{children}</div>
 }

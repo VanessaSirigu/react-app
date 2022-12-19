@@ -1,0 +1,14 @@
+.points{
+    display: flex;
+    justify-content: end;
+    margin: 3px 8px;
+    color: #e5e3e348;
+}
+
+.point {
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: grey;
+    margin: 3px 1px;
+}

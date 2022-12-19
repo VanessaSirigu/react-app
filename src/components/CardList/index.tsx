@@ -4,7 +4,7 @@ import './style.css'
 
 type Props = {
   data: CardProps /* & { id: string })*/[]
-  className: string
+  className?: string
 }
 
 export const CardList = ({ data, className }: Props) => {
@@ -16,7 +16,7 @@ export const CardList = ({ data, className }: Props) => {
           <Card
             title={e.title}
             subtitle={e.subtitle}
-            icon={e.icon}
+            srcImg={e.srcImg}
             className={className}
             graphCircle={e.graphCircle}
             // id="1"

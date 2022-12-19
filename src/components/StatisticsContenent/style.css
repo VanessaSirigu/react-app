@@ -1,0 +1,9 @@
+.stat-contenent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8px;
+}
+
+.stat-contenent .title{
+    height: 8px;
+}

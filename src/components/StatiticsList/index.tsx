@@ -1,24 +1,16 @@
-import React from 'react'
-import { Statistic, Props as StatiticsProps } from '../Statistic'
+import cn from 'classnames'
+import { Statistic, Props as Statitics } from '../Statistic'
 import './style.css'
 
 type Props = {
-  data: StatiticsProps[]
-  className?: string
+  data: Statitics[]
 }
 
-export const StatiticsList = ({ data, className }: Props) => {
+export const StatiticsList = ({ data }: Props) => {
   return (
-    <div className="row">
+    <div className={cn('row')}>
       {data.map((e) => {
-        return (
-          <Statistic
-            className={className}
-            icon={e.icon}
-            title={e.title}
-            subtitle={e.subtitle}
-          />
-        )
+        return <Statistic icon={e.icon} title={e.title} subtitle={e.subtitle} />
       })}
     </div>
   )

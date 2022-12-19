@@ -1,3 +1,4 @@
+import cn from 'classnames'
 import React, { ReactNode } from 'react'
 import { Text } from '../Text'
 import './style.css'
@@ -5,17 +6,17 @@ import './style.css'
 type Props = {
   title: string
   subtitle?: string
-  className?: string
+  size?: 'small' | 'medium' | 'large'
 }
 
-export const Title = ({ title, subtitle, className }: Props) => {
+export const Title = ({ title, subtitle, size = 'medium' }: Props) => {
   return (
-    <div>
-      <Text type="h2" className={`${className} title`} bold>
+    <div className={cn('titles')}>
+      <Text type="h2" bold size={size} className="title">
         {title}
       </Text>
       {subtitle && (
-        <Text type="p" className={`${className} subtitle`}>
+        <Text type="p" size={size} className="subtitle">
           {subtitle}
         </Text>
       )}

@@ -1,3 +1,25 @@
-/* .title, .subtitle{
-    font-family: Arial, Helvetica, sans-serif;
-} */
+.bold {
+    font-weight: bold;
+}
+
+.titles{
+    font: menu
+}
+
+.medium{
+    font-size: 12px;
+}
+
+.small{
+    font-size: small;
+}
+
+.small.subtitle{
+    font-size: 10px;
+    color: grey
+}
+
+
+.large{
+    font-size: large
+}

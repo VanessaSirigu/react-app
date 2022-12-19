@@ -6,10 +6,18 @@ type Props = {
   children: string
   bold?: boolean
   type?: 'h1' | 'h2' | 'h3' | 'h4' | 'p' | 'span'
+  size?: 'small' | 'medium' | 'large'
   className?: string
+  variant?: string
 }
 
-export const Text = ({ children, bold, type = 'span', className }: Props) => {
+export const Text = ({
+  children,
+  bold,
+  className,
+  type = 'span',
+  size = 'medium'
+}: Props) => {
   const Wrapper = type
-  return <Wrapper className={cn(className, { bold })}>{children}</Wrapper>
+  return <Wrapper className={cn(className, size, { bold })}>{children}</Wrapper>
 }
